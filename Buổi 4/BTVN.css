@@ -1,0 +1,96 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #373a3c;
+    background-color: #fff;
+    box-sizing: border-box;
+    text-align: center;
+    }
+header{
+    display: block;
+    position: relative;
+    padding: 8px 16px;
+    box-sizing: border-box;
+}
+footer{
+    box-sizing: border-box;
+    background-color: #37414D;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+    display: block;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
+.menu{
+    display:inline-block;
+    position: relative;
+    right: 100px
+
+}
+.link{
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.header-container{
+    display:flex;
+    justify-content: space-between;
+}
+.item2{
+    color: black;
+    text-decoration: none;
+    
+}
+.menu-item{
+    display: inline;
+    padding: 6.8px 0px;
+}
+.register-link{
+    color: #5CB85C;
+    text-decoration: none;
+}
+.item-register{
+    margin: 0px 0px 16px;
+}
+.brand{
+    color: #5CB85C;
+    font-family: "Titillium Web", sans-serif;
+    text-decoration: none;
+    font-size: 150%;
+    margin: 0px 32px 0px 0px;
+    padding: 0px 0px 4px;
+    position: relative;
+    left: 100px;
+}
+.button{
+    background-color: #5CB85C;
+    color: #FFFFF5;
+    border-radius: 5px;
+    font-size: 20px;
+    border-color: #5CB85C;
+    padding: 12px 24px;
+    position: relative;
+    left: 170px;
+}
+.form-email,
+.form-password{
+    padding: 12px 24px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: block;
+    color: #55595c;
+    line-height: 1.25;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    width: 30%;
+    position: relative;
+    left: 450px;
+}
+.item1,
+.item3{
+    color:#B2CCE4;
+    text-decoration: none;
+}

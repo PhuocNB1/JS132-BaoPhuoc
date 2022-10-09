@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(8, 8, 8, 0.452), rgba(12, 12, 12, 0.452)), 
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/afc06103-4d6a-4236-b496-34b671a7e9ba/4f5e9e23-1c27-48a9-9e1a-2654cef2a140/VN-vi-20221003-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+}
+
+.main {
+}
+
+.container {
+    width: 906px;
+    height: 90px;
+}
+.logo-brand{
+    width: 300px;
+    height: 90px;
+    margin:20px 10px;
+}
+.logo-brand-img{
+    width: 207px;
+    height: 65px;
+}
+
+.login-box {
+    padding:60px 68px 40px;
+    margin: 100px auto 90px;
+    width: 450px;
+    min-height: 600px;
+    background:rgba(0, 0, 0, 0.521);
+    color: white;
+}
+
+.login-box__title {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.form-login {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.form-login__input{
+    min-height: 45px;
+    background: rgb(51,51,51);
+    border: none;
+    outline: none;
+    padding: 26px 16px 12px;
+    border-radius: 6px;
+    color: white;
+    width: 100%;
+}
+.form-login__input ~ label{
+    transition: all 0.15s linear;
+}
+.form-login__input:focus ~label{
+    transform: translateY(-14px);
+    font-size: 12px;
+}
+.form-login__input:not(:placeholder-shown) ~ label{
+    transform: translateY(-14px);
+    font-size: 12px;
+}
+
+.form-login__input::placeholder{
+    opacity: 0;
+    visibility: hidden;
+}
+.form-login__btn {
+border-radius: 6px;
+font-size: 16px;
+font-weight: 700;
+margin: 24px 0 12px;
+background: #e50914;
+padding: 16px;
+border: none;
+outline: none;  
+color: #ffffff;
+cursor: pointer;
+transition: all 0.25s linear;
+}
+.form-login__btn:active{
+    scale: 0.96;
+}
+.login-box-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-box-action-help{
+    color:white;
+    text-decoration: none;
+}
+.login-box-action-checkbox{
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+.form-login__item{
+    position: relative;
+
+}
+.form-login__item label{
+    position: absolute;
+    top: 20px;
+    left: 16px;
+
+}
+.login-box__register {
+    display: flex;
+    align-items:center;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.register-txt{
+
+}
+.register-link {
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+.login-box__other{
+    font-size: 13px;
+    padding-top: 20px;
+}
+.other-info{
+    color: blue;
+}
+.footer{
+    padding-bottom: 20px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.521);
+    
+}
+.footer__info {
+    padding: 30px 0;
+    margin: 0 45px;
+    
+}
+.info-quest{
+    color:#737373;
+    text-decoration: none;
+    font-size: 16px;
+}
+.info-link {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.info-link-item {
+    width: 203.84px;
+    height: 62px;
+    margin: 0 0 16px;
+    padding: 0 12px 0 0;
+    font-size: 13px;
+}
+
+.info-link-item-help {
+    color:#737373;
+    text-decoration: none;
+    
+}

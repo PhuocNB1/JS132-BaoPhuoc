@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xem phim và truyền hình trực tuyến | FPT Play</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Css/style.css">
     <link rel="shortcut icon" href="https://cdn6.aptoide.com/imgs/6/1/c/61cc942e0319b0d3f7131bd82dd4b254_icon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="./breakpoint.css">
 </head>
 
 <body>
@@ -50,8 +51,14 @@
                                 </div>
                             </li>
                             <li class="download-opt__subscriber ">
-                                <img src="https://fptplay.vn/images/layout/dang-ky-thue-bao-2.png"
-                                    alt="subcriber registation" />
+                                <a class="subscriber-link1" href="https://fptplay.vn/dang-ky-dich-vu" target="_blank">
+                                    <img src="https://fptplay.vn/images/layout/dang-ky-thue-bao-2.png"
+                                        alt="subcriber registation" />
+                                </a>
+                                <!-- <a class="subscriber-link2" href="https://fptplay.vn/dang-ky-dich-vu" target="_blank">
+                                    <img src="https://fptplay.vn/images/layout/dang-ky-thue-bao-2.png"
+                                        alt="subcriber registation" />
+                                </a> -->
                             </li>
                         </ul>
                     </div>
@@ -59,7 +66,7 @@
                         <ul class="active-menu">
                             <li class="active-menu-search">
                                 <a href="https://fptplay.vn/tim-kiem" target="_blank">
-                                    <img class="active-menu-search-img" src="./image/search-icon.png"
+                                    <img class="active-menu-search-img" src="./image/search_icon-2.png"
                                         alt="search-icon" />
                                 </a>
                             </li>
@@ -80,7 +87,8 @@
                         <a class="menu-header-link-item-txt" href="https://fptplay.vn/" target="_blank">Trang chủ</a>
                     </div>
                     <div class="menu-header-link-item">
-                        <a class="menu-header-link-item-txt" href="https://fptplay.vn/xem-truyen-hinh/vtv1-hd" target="_blank">Truyền hình</a>
+                        <a class="menu-header-link-item-txt" href="https://fptplay.vn/xem-truyen-hinh/vtv1-hd"
+                            target="_blank">Truyền hình</a>
                     </div>
                     <div class="menu-header-link-item">
                         <a class="menu-header-link-item-txt" href="https://fptplay.vn/hbo-go" target="_blank">
@@ -89,53 +97,66 @@
                         </a>
                     </div>
                     <div class="menu-header-link-item">
-                        <a class="menu-header-link-item-txt" href="https://fptplay.vn/the-thao/5d4b92bd2089bd01bf5a5898" target="_blank">Thể thao</a>
+                        <a class="menu-header-link-item-txt" href="https://fptplay.vn/the-thao/5d4b92bd2089bd01bf5a5898"
+                            target="_blank">Thể thao</a>
                     </div>
                     <div class="menu-header-link-item">
-                        <a class="menu-header-link-item-txt" href="https://fptplay.vn/danh-muc/phim-bo/55701c1517dc1321ee85857a" target="_blank">Phim
+                        <a class="menu-header-link-item-txt"
+                            href="https://fptplay.vn/danh-muc/phim-bo/55701c1517dc1321ee85857a" target="_blank">Phim
                             bộ</a>
                     </div>
                     <div class="menu-header-link-item">
-                        <a class="menu-header-link-item-txt" href="https://fptplay.vn/danh-muc/tv-show/52847232169a585a2449c48c" target="_blank">TV
+                        <a class="menu-header-link-item-txt"
+                            href="https://fptplay.vn/danh-muc/tv-show/52847232169a585a2449c48c" target="_blank">TV
                             Show</a>
                     </div>
                     <div class="menu-header-link-item">
-                        <a class="menu-header-link-item-txt" href="https://fptplay.vn/danh-muc/thieu-nhi/54fd271917dc136162a0cf2d" target="_blank">Thiếu
+                        <a class="menu-header-link-item-txt"
+                            href="https://fptplay.vn/danh-muc/thieu-nhi/54fd271917dc136162a0cf2d" target="_blank">Thiếu
                             nhi</a>
                     </div>
                     <div class="menu-header-link-item">
-                        <a class="menu-header-link-item-txt" href="https://fptplay.vn/danh-muc/phim-le/5841452d17dc130a9ab827d4" target="_blank">Phim
+                        <a class="menu-header-link-item-txt"
+                            href="https://fptplay.vn/danh-muc/phim-le/5841452d17dc130a9ab827d4" target="_blank">Phim
                             lẻ</a>
                     </div>
                     <div class="menu-header-link-item">
-                        <a class="menu-header-link-item-txt" href="https://fptplay.vn/danh-muc/anime/5587c83b17dc1353a3624a22" target="_blank">Anime</a>
+                        <a class="menu-header-link-item-txt"
+                            href="https://fptplay.vn/danh-muc/anime/5587c83b17dc1353a3624a22" target="_blank">Anime</a>
                     </div>
                     <div class="menu-header-link-item">
-                        <a class="menu-header-link-item-txt" href="https://fptplay.vn/danh-muc/am-nhac/625651192089bd227faefdc6" target="_blank">Âm
+                        <a class="menu-header-link-item-txt"
+                            href="https://fptplay.vn/danh-muc/am-nhac/625651192089bd227faefdc6" target="_blank">Âm
                             nhạc</a>
                     </div>
                     <div class="menu-header-link-item dropdown">
-                        <span class="menu-header-link-item-txt" >Xem thêm </span><span class="glyphicon glyphicon-chevron-down"></span>
+                        <span class="menu-header-link-item-txt">Xem thêm </span><span
+                            class="glyphicon glyphicon-chevron-down"></span>
                         <div class="dropdown-content menu">
                             <div class="content-menu-item">
                                 <div class="menu-header-link-special">
-                                    <a class="menu-header-link-item-txt" href="https://fptplay.vn/danh-muc/goi-dac-sac/59d44bf9558320263bc1a42f"
+                                    <a class="menu-header-link-item-txt"
+                                        href="https://fptplay.vn/danh-muc/goi-dac-sac/59d44bf9558320263bc1a42f"
                                         target="_blank">Gói đặc biệt</a>
                                 </div>
                                 <div class="menu-header-link-comedy">
-                                    <a class="menu-header-link-item-txt" href="https://fptplay.vn/danh-muc/hai/591408a2558320658eb88e48"
+                                    <a class="menu-header-link-item-txt"
+                                        href="https://fptplay.vn/danh-muc/hai/591408a2558320658eb88e48"
                                         target="_blank">Hài</a>
                                 </div>
                                 <div class="menu-header-link-stage">
-                                    <a class="menu-header-link-item-txt" href="https://fptplay.vn/danh-muc/san-khau/62f24c512089bd0040ea67a9"
+                                    <a class="menu-header-link-item-txt"
+                                        href="https://fptplay.vn/danh-muc/san-khau/62f24c512089bd0040ea67a9"
                                         target="_blank">Sân khấu</a>
                                 </div>
                                 <div class="menu-header-link-Learn">
-                                    <a class="menu-header-link-item-txt" href="https://fptplay.vn/danh-muc/hoc-tap/5e7c66802089bd015f06ce6d"
+                                    <a class="menu-header-link-item-txt"
+                                        href="https://fptplay.vn/danh-muc/hoc-tap/5e7c66802089bd015f06ce6d"
                                         target="_blank">Học tập</a>
                                 </div>
                                 <div class="menu-header-link-pladio">
-                                    <a class="menu-header-link-item-txt" href="https://fptplay.vn/danh-muc/pladio/62fc8cc42089bd05369b65a3"
+                                    <a class="menu-header-link-item-txt"
+                                        href="https://fptplay.vn/danh-muc/pladio/62fc8cc42089bd05369b65a3"
                                         target="_blank">Pladio</a>
                                 </div>
                             </div>
@@ -147,38 +168,41 @@
     </header>
     <main class="main-container">
         <div class="main-content">
-            <h3 class="form-title">Đăng nhập</h3>
-            <div class="login-box">
-                <form class="form-login">
-                    <div class="form-login__item">
-                        <input id="phone" type="text" placeholder="Điện thoại" class="form-login__input" />
+            <h3 class="register-title">Đăng ký tài khoản</h3>
+            <div class="register-box">
+                <form class="form-register">
+                    <div class="form-register__item">
+                        <input id="phone" type="text" placeholder="Nhập số điện thoại" class="form-register__input" />
                         <label for="phone"></label>
-                        <input id="password" type="password" placeholder="Mật khẩu" class="form-login__input" />
+                        <input id="password" type="password" placeholder="Mật khẩu" class="form-register__input" />
                         <label for="password"></label>
+                        <input id="re-password" type="password" placeholder="Nhập lại mật khẩu"
+                            class="form-register__input" />
+                        <label for="re-password"></label>
                     </div>
-                    <button type="reset" class="form-login__btn-login">Đăng Nhập</button>
+                    <div class="policy">
+                        <p class="policy-txt">Khi bấm vào nút đăng ký, bạn đã đồng ý với</p>
+                        <a class="policy-link-regis" href="https://fptplay.vn/chinh-sach-va-quy-dinh" target="_blank">
+                            Chính sách và quy định
+                        </a>
+                        <button type="reset" class="form-register__btn-register">Đăng ký</button>
                 </form>
-                <div class="form-login-link">
+                <!-- <div class="form-login-link">
                     <a class="form-login-link" href="https://fptplay.vn/quen-mat-khau?reqPage=%2F" target="_blank">Quên
-                        mật
-                        khẩu</a>
+                        mật khẩu</a>
+                </div> -->
+                <p class="form-register-txt"> hoặc </p>
+                <div class="form-register__btn">
+                    <button type="submit" class="form-register__btn-FB">Facebook</button>
+                    <button type="submit" class="form-register__btn-GG">Google</button>
                 </div>
-                <p class="form-login-txt"> hoặc </p>
-                <div class="form-login__btn">
-                    <button type="submit" class="form-login__btn-FB">Facebook</button>
-                    <button type="submit" class="form-login__btn-GG">Google</button>
-                </div>
-                <div class="register">
+                <!-- <div class="register">
                     <div class="register-txt">Chưa có tài khoản? </div>
                     <a class="register-link" href="https://fptplay.vn/dang-ky?reqPage=%2F" target="_blank">Đăng ký
                         ngay</a>
-                </div>
-                <div class="policy">
-                    <a class="policy-link" href="https://fptplay.vn/chinh-sach-va-quy-dinh" target="_blank">Chính sách
-                        và quy
-                        định</a>
-                </div>
+                </div> -->
             </div>
+        </div>
         </div>
 
     </main>

@@ -1,0 +1,140 @@
+.main-content {
+    background: rgb(17, 17, 17);
+    width: 100%;
+}
+
+.form-title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.login-box {
+    padding: 48px;
+    margin: 20px auto 90px;
+    width: 350px;
+    min-height: 450px;
+    background: rgb(31, 31, 31);
+    border-radius: 6px;
+}
+
+.form-login__input {
+    min-height: 40px;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    color: rgb(79, 80, 87);
+    width: 100%;
+    font-size: 16px;
+}
+
+.form-login__input::placeholder {
+    color: rgb(209, 206, 206);
+}
+
+.form-login__btn-login {
+    min-height: 30px;
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+    background: #ff6500;
+}
+
+.form-login__btn-login:hover {
+    background-color: #a74503;
+}
+
+.form-login-link {
+    color: rgb(130, 130, 130);
+    display: flex;
+    justify-content: center;
+}
+
+.form-login-link:hover {
+    text-decoration: none;
+    color: #ff6500;
+}
+
+.form-login-txt {
+    text-align: center;
+}
+
+.form-login-txt {
+    color: rgb(130, 130, 130);
+}
+
+.form-login__btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-login__btn-FB {
+    min-height: 40px;
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+    background: rgb(66, 103, 178);
+}
+
+.form-login__btn-FB:hover {
+    background-color: rgb(32, 80, 177);
+}
+
+.form-login__btn-GG {
+    min-height: 40px;
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+    background: rgb(221, 75, 57);
+}
+
+.form-login__btn-GG:hover {
+    background-color: rgb(219, 56, 34);
+}
+.policy {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  
+  .policy-login {
+    display: flex;
+    margin-top: 0px;
+  }
+  
+  .policy-txt {
+    color: #b4b4b4;
+    font-size: 14px;
+    margin: 2px auto;
+  }
+  
+  .policy-login-link {
+    color: #b4b4b4;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-top: 8px;
+  }
+  
+  .policy-login-link:hover {
+    text-decoration: none;
+    color: #ff6500;
+  }

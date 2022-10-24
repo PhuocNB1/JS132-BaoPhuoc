@@ -36,7 +36,9 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
     /* style header */
-
+.header-side{
+    display: none;
+}
     /* style footer */
 
     .infomation {

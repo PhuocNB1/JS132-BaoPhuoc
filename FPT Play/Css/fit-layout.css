@@ -16,10 +16,12 @@ li {
 
 .header-active {
   background: rgb(0, 0, 0);
-  /* position: fixed;
-  top: 0%;
-  left: 0%;
-  width: 100%; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: max-content;
+  z-index: 1;
 }
 
 .main-header {
@@ -45,24 +47,22 @@ li {
   position: relative;
 }
 
-.download-opt__subcriber:hover .subcriber-img {
+/* .download-opt__subcriber:hover .subcriber-img {
   opacity: 0;
   visibility: hidden;
-}
+} */
 
 .download-opt__subcriber:hover .subcriber-img-hover {
-  opacity: 1;
-  visibility: visible;
+  z-index: 1;
 }
 
 .subcriber-img-hover {
+  z-index: -1;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0;
-  visibility: hidden;
 }
 
 .active-menu {

@@ -1,6 +1,7 @@
 .main-content {
     background: rgb(17, 17, 17);
     width: 100%;
+    margin-top: 100px;
 }
 
 .form-title {
@@ -110,31 +111,40 @@
 .form-login__btn-GG:hover {
     background-color: rgb(219, 56, 34);
 }
-.policy {
+
+.login-register {
     display: flex;
-    flex-direction: column;
-    margin-top: 0px;
-  }
-  
-  .policy-login {
-    display: flex;
-    margin-top: 0px;
-  }
-  
-  .policy-txt {
+    margin-top: 10px;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.login-register-txt {
     color: #b4b4b4;
     font-size: 14px;
-    margin: 2px auto;
-  }
-  
-  .policy-login-link {
+}
+
+.login-register-link {
+    color: #b4b4b4;
+    font-size: 14px;
+}
+
+.login-register-link:hover {
+    text-decoration: none;
+    color: #ff6500;
+}
+.login-policy{
+    display: flex;
+    justify-content: center;
+}
+.login-policy-link {
     color: #b4b4b4;
     font-size: 14px;
     margin: 0 auto;
     margin-top: 8px;
-  }
-  
-  .policy-login-link:hover {
+}
+
+.login-policy-link:hover {
     text-decoration: none;
     color: #ff6500;
-  }
+}

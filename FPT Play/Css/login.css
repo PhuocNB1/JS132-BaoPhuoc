@@ -1,10 +1,18 @@
+.login-container {
+    background: rgb(17, 17, 17);
+    margin: 0 auto;
+    margin-top: 80px;
+    height: 800px;
+}
+
 .main-content {
     background: rgb(17, 17, 17);
     width: 100%;
-    margin-top: 100px;
+
 }
 
 .form-title {
+    background: rgb(17, 17, 17);
     text-align: center;
     color: rgb(255, 255, 255);
     padding-top: 40px;
@@ -133,10 +141,12 @@
     text-decoration: none;
     color: #ff6500;
 }
-.login-policy{
+
+.login-policy {
     display: flex;
     justify-content: center;
 }
+
 .login-policy-link {
     color: #b4b4b4;
     font-size: 14px;

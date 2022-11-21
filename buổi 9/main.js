@@ -1,11 +1,15 @@
-let result = "";
-for(let a = 1; a < 12 ; a++){
-    for( let b = 1; b < 7; b++ ){
-        if(a >= 6){
-            if(b >= 7 - a){
-                result += "*"
-            }else
-        }
-    }
+let person = {
+    name: "Cristiano Ronaldo dos Santos Aveiro",
+    birthday: "Feb 5th 1985",
+    country: "Portugal",
+};
+let index = prompt("Bạn có muốn nhập thêm thông tin cầu thủ không");
+let text;
+if (index == "Y") {
+    text = "Bạn muốn thêm thông tin gì?";
+    console.log(index.prompt("Cụ thể là gì") = prompt())
 }
-console.log(result);
+else {
+    text = "Good Bye!"
+};
+console.log(text);

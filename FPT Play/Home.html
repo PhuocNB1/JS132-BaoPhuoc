@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="./Css/home.css">
     <link rel="stylesheet" href="./breakpoint/br-fit-layout.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css" />
 </head>
 
 <body>
@@ -19,153 +22,125 @@
         <div class="header-active">
             <div class="main-header">
                 <div class="logo-home">
-                    <a class="logo-home-link" href="./Home.html" target="_blank">
+                    <a class="logo-home-link" href="./Home.html" target="_self">
                         <img src="https://fptplay.vn/images/logo-2.png" alt="logo-home" />
                     </a>
                 </div>
-
                 <div class="main-container">
-                    <div class="main-container-download">
-                        <ul class="download-opt">
-                            <li class="download-opt__img">
-                                <div class="dropdown">
-                                    <a class="img-hiddenbox">
-                                        <span><img src="https://fptplay.vn/images/layout/download-app.png"
-                                                alt="QR Download" /></span>
-                                    </a>
-                                    <div class="dropdown-content">
-                                        <div class="content-item">
-                                            <div class="img-item-android">
-                                                <img src="https://fptplay.vn/images/layout/qr-android.png"
-                                                    alt="QR code Android" />
-                                                <img src="https://fptplay.vn/images/layout/icon-google-play.png"
-                                                    alt="img GG Play" />
+                    <div class="menu-header">
+                        <div class="menu-header-link">
+                            <div class="menu-header-link-item">
+                                <a class="menu-header-link-item-txt" href="./Home.html" target="_self">Trang
+                                    chủ
+                                </a>
+                            </div>
+                            <div class="menu-header-link-item">
+                                <a class="menu-header-link-item-txt" href="https://fptplay.vn/xem-truyen-hinh/vtv1-hd"
+                                    target="_blank">Truyền hình
+                                </a>
+                            </div>
+                            <div class="menu-header-link-item">
+                                <a class="menu-header-link-item-txt" href="https://fptplay.vn/trang/series"
+                                    target="_blank">Phim bộ
+                                </a>
+                            </div>
+                            <div class="menu-header-link-item">
+                                <a class="menu-header-link-item-txt" href="https://fptplay.vn/trang/sport"
+                                    target="_blank">Thể thao
+                                </a>
+                            </div>
+                            <div class="menu-header-link-item">
+                                <a class="menu-header-link-item-txt" href="https://fptplay.vn/trang/71"
+                                    target="_blank">NBA
+                                </a>
+                            </div>
+                            <div class="menu-header-link-item dropdown">
+                                <span class="menu-header-link-item-txt">Xem thêm </span><span
+                                    class="glyphicon glyphicon-chevron-down"></span>
+                                <div class="dropdown-content">
+                                    <div class="content-item">
+                                        <div class="left-menu">
+                                            <div class="menu-header-link-live">
+                                                <a class="menu-header-link-item-txt"
+                                                    href="https://fptplay.vn/trang/event" target="_blank">Trực tiếp
+                                                </a>
                                             </div>
-                                            <div class="img-item-IOS">
-                                                <img src="https://fptplay.vn/images/layout/qr-ios.png"
-                                                    alt="QR code IOS" />
-                                                <img src="https://fptplay.vn/images/layout/icon-appstore.png"
-                                                    alt="img appstore" />
+                                            <div class="menu-header-link-item-child">
+                                                <a class="menu-header-link-item-txt"
+                                                    href="https://fptplay.vn/trang/children" target="_blank">Thiếu nhi
+                                                </a>
+                                            </div>
+                                            <div class="menu-header-link-entertaiment">
+                                                <a class="menu-header-link-item-txt"
+                                                    href="https://fptplay.vn/trang/entertainment" target="_blank">Giải
+                                                    trí
+                                                </a>
+                                            </div>
+                                            <div class="menu-header-link-item-phimle">
+                                                <a class="menu-header-link-item-txt"
+                                                    href="https://fptplay.vn/trang/phim_le" target="_blank">Phim lẻ
+                                                </a>
+                                            </div>
+                                            <div class="menu-header-link-Learn">
+                                                <a class="menu-header-link-item-txt"
+                                                    href="https://fptplay.vn/trang/study" target="_blank">Học tập
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="right-menu">
+                                            <div class="menu-header-link-item-anime">
+                                                <a class="menu-header-link-item-txt"
+                                                    href="https://fptplay.vn/trang/anime" target="_blank">Anime
+                                                </a>
+                                            </div>
+                                            <div class="menu-header-link-item-music">
+                                                <a class="menu-header-link-item-txt"
+                                                    href="https://fptplay.vn/trang/music" target="_blank">Âm nhạc
+                                                </a>
+                                            </div>
+                                            <div class="menu-header-link-item-hbo">
+                                                <a class="menu-header-link-item-txt"
+                                                    href="https://fptplay.vn/trang/hbogo" target="_blank">HBO GO
+                                                </a>
+                                            </div>
+                                            <div class="menu-header-link-pladio">
+                                                <a class="menu-header-link-item-txt"
+                                                    href="https://fptplay.vn/trang/pladio" target="_blank">Pladio
+                                                </a>
+                                            </div>
+                                            <div class="menu-header-link-special">
+                                                <a class="menu-header-link-item-txt"
+                                                    href="https://fptplay.vn/trang/special" target="_blank">Gói đặc sắc
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </li>
-                            <li class="download-opt__subscriber ">
-                                <a class="subscriber-link" href="https://fptplay.vn/dang-ky-dich-vu" target="_blank">
-                                    <img class="subcriber-img"
-                                        src="https://fptplay.vn/images/layout/dang-ky-thue-bao-2.png"
-                                        alt="subcriber registation" />
-                                </a>
-                                <a class="subscriber-link-hover" href="https://fptplay.vn/dang-ky-dich-vu"
-                                    target="_blank">
-                                    <img class="subcriber-img-hover"
-                                        src="https://fptplay.vn/images/layout/dang-ky-thue-bao-2-hover.png"
-                                        alt="subcriber registation" />
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="main-container-active">
-                        <ul class="active-menu">
-                            <li class="active-menu-search">
-                                <a href="https://fptplay.vn/tim-kiem" target="_blank">
-                                    <img class="active-menu-search-img" src="./image/search_icon-2.png"
-                                        alt="search-icon" />
-                                </a>
-                            </li>
-                            <li class="active-buy">
-                                <button type="submit" class="active-buy__btn">MUA GÓI</button>
-                            </li>
-                            <li class="active-login">
-                                <a class="active-login-link" href="./Login.html">Đăng
-                                    nhập</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="menu-header">
-                <div class="menu-header-link">
-                    <div class="menu-header-link-item">
-                        <a class="menu-header-link-item-txt" href="https://fptplay.vn/" target="_blank">Trang chủ</a>
-                    </div>
-                    <div class="menu-header-link-item">
-                        <a class="menu-header-link-item-txt" href="https://fptplay.vn/xem-truyen-hinh/vtv1-hd"
-                            target="_blank">Truyền hình</a>
-                    </div>
-                    <div class="menu-header-link-item">
-                        <a class="menu-header-link-item-txt" href="https://fptplay.vn/hbo-go" target="_blank">
-                            <img src="https://fptplay.vn/images/menu-hbogo.png" alt="hbo-logo" />
-                            HBO GO
-                        </a>
-                    </div>
-                    <div class="menu-header-link-item">
-                        <a class="menu-header-link-item-txt" href="https://fptplay.vn/the-thao/5d4b92bd2089bd01bf5a5898"
-                            target="_blank">Thể thao</a>
-                    </div>
-                    <div class="menu-header-link-item">
-                        <a class="menu-header-link-item-txt"
-                            href="https://fptplay.vn/danh-muc/phim-bo/55701c1517dc1321ee85857a" target="_blank">Phim
-                            bộ</a>
-                    </div>
-                    <div class="menu-header-link-item">
-                        <a class="menu-header-link-item-txt"
-                            href="https://fptplay.vn/danh-muc/tv-show/52847232169a585a2449c48c" target="_blank">TV
-                            Show</a>
-                    </div>
-                    <div class="menu-header-link-item">
-                        <a class="menu-header-link-item-txt"
-                            href="https://fptplay.vn/danh-muc/thieu-nhi/54fd271917dc136162a0cf2d" target="_blank">Thiếu
-                            nhi</a>
-                    </div>
-                    <div class="menu-header-link-item">
-                        <a class="menu-header-link-item-txt"
-                            href="https://fptplay.vn/danh-muc/phim-le/5841452d17dc130a9ab827d4" target="_blank">Phim
-                            lẻ</a>
-                    </div>
-                    <div class="menu-header-link-item">
-                        <a class="menu-header-link-item-txt"
-                            href="https://fptplay.vn/danh-muc/anime/5587c83b17dc1353a3624a22" target="_blank">Anime</a>
-                    </div>
-                    <div class="menu-header-link-item">
-                        <a class="menu-header-link-item-txt"
-                            href="https://fptplay.vn/danh-muc/am-nhac/625651192089bd227faefdc6" target="_blank">Âm
-                            nhạc</a>
-                    </div>
-                    <div class="menu-header-link-item dropdown">
-                        <span class="menu-header-link-item-txt">Xem thêm </span><span
-                            class="glyphicon glyphicon-chevron-down"></span>
-                        <div class="dropdown-content menu">
-                            <div class="content-menu-item">
-                                <div class="menu-header-link-special">
-                                    <a class="menu-header-link-item-txt-drop"
-                                        href="https://fptplay.vn/danh-muc/goi-dac-sac/59d44bf9558320263bc1a42f"
-                                        target="_blank">Gói đặc biệt</a>
-                                </div>
-                                <div class="menu-header-link-comedy">
-                                    <a class="menu-header-link-item-txt-drop"
-                                        href="https://fptplay.vn/danh-muc/hai/591408a2558320658eb88e48"
-                                        target="_blank">Hài</a>
-                                </div>
-                                <div class="menu-header-link-stage">
-                                    <a class="menu-header-link-item-txt-drop"
-                                        href="https://fptplay.vn/danh-muc/san-khau/62f24c512089bd0040ea67a9"
-                                        target="_blank">Sân khấu</a>
-                                </div>
-                                <div class="menu-header-link-Learn">
-                                    <a class="menu-header-link-item-txt-drop"
-                                        href="https://fptplay.vn/danh-muc/hoc-tap/5e7c66802089bd015f06ce6d"
-                                        target="_blank">Học tập</a>
-                                </div>
-                                <div class="menu-header-link-pladio">
-                                    <a class="menu-header-link-item-txt-drop"
-                                        href="https://fptplay.vn/danh-muc/pladio/62fc8cc42089bd05369b65a3"
-                                        target="_blank">Pladio</a>
-                                </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="main-container-active">
+                    <ul class="active-menu">
+                        <li class="active-menu-search">
+                            <a class="active-menu-search-link" href="https://fptplay.vn/tim-kiem" target="_blank">
+                                <img class="active-menu-search-img"
+                                    src="https://fptplay.vn/images/icon-os4/search.png" />
+                            </a>
+                        </li>
+                        <li class="active-menu-search">
+                            <img class="active-menu-search-img"
+                                src="https://fptplay.vn/images/icon-os4/icon-alarm.png" />
+                        </li>
+                        <li class="active-buy">
+                            <button type="submit" class="active-buy__btn">
+                                <img src="https://fptplay.vn/images/icon-os4/Wallet.png" /> Mua gói</button>
+                        </li>
+                        <li class="active-login" id="page">
+                            <a class="active-login-link" href="./Login.html">Đăng
+                                nhập</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -216,284 +191,36 @@
                         src="https://ads-cdn.fptplay.net/static/banner/2022/10/21_635269190d748f00012b1d3a.jpg" />
                 </a>
             </div>
-            <div class="home-select">
+            <div class="home-select phim-bo">
                 <div class="home-select-title">
                     <h3 class="home-select-title-txt">Phim bộ</h3>
                 </div>
                 <div class="home-select-menu">
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/ngu-long-dai-nao-634a3068d7389bb4bd498083"
-                            target="_blank">
-                            <img class="home-select-menu-item-img"
-                                src="https://static.fptplay.net/static/img/share/video/OTT/VOD/2022/10/11/ngu-long-dai-nao-30-tap-fpt-play-1665461013414_Portrait_origin.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/ngu-long-dai-nao-634a3068d7389bb4bd498083"
-                            target="_blank">
-                            <p class="home-select-menu-item-txt">Ngũ Long Đại Náo</p>
-                        </a>
-                    </div>
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/cong-chua-ngo-ngao-bach-tuyet-6343cdc07c1f4e33fddb9427"
-                            target="_blank">
-                            <img class="home-select-menu-item-img"
-                                src="https://static.fptplay.net/static/img/share/video/OTT/VOD/2022/10/10/cong-chua-ngo-ngao-bach-tuyet-10-tap-fpt-play-1665366316105_Portrait_origin.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/cong-chua-ngo-ngao-bach-tuyet-6343cdc07c1f4e33fddb9427"
-                            target="_blank">
-                            <p class="home-select-menu-item-txt">Công Chúa Ngổ Ngáo: Bạch Tuyết</p>
-                        </a>
-                    </div>
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/nu-thanh-tra-tai-ba-61403e0a2089bd026164819e"
-                            target="_blank">
-                            <img class="home-select-menu-item-img"
-                                src="https://static.fptplay.net/static/img/share/video/OTT/VOD/2022/07/26/nu-thanh-tra-tai-ba-docquyen_lg26-07-2022_13g45-08.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/nu-thanh-tra-tai-ba-61403e0a2089bd026164819e"
-                            target="_blank">
-                            <p class="home-select-menu-item-txt">Nữ Thanh Tra Tài Ba</p>
-                        </a>
-                    </div>
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/mong-ho-diep-63327bfa018158d643cdb66e" target="_blank">
-                            <img class="home-select-menu-item-img"
-                                src="https://static.fptplay.net/static/img/share/video/OTT/VOD/2022/09/27/mong-ho-diep-10-tap-fpt-play-1664247058839_Portrait_origin.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/mong-ho-diep-63327bfa018158d643cdb66e" target="_blank">
-                            <p class="home-select-menu-item-txt">Mộng Hồ Điệp</p>
-                        </a>
-                    </div>
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/ban-co-an-toan-631b007c43e5357fdad61e8b" target="_blank">
-                            <img class="home-select-menu-item-img"
-                                src="https://static.fptplay.net/static/img/share/video/OTT/VOD/2022/09/09/ban-co-an-toan-31-tap-fpt-play-1662713911470_Portrait_origin.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/ban-co-an-toan-631b007c43e5357fdad61e8b" target="_blank">
-                            <p class="home-select-menu-item-txt">Bạn Có An Toàn?</p>
-                        </a>
-                    </div>
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/yen-chi-rookie-agent-rouge-63356d21e02c8347a0f706b6"
-                            target="_blank">
-                            <img class="home-select-menu-item-img"
-                                src="https://static.fptplay.net/static/img/share/video/OTT/VOD/2022/09/27/yen-chi-45-tap-fpt-play-1664251056243_Portrait_origin.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/yen-chi-rookie-agent-rouge-63356d21e02c8347a0f706b6"
-                            target="_blank">
-                            <p class="home-select-menu-item-txt">Yên Chi</p>
-                        </a>
-                    </div>
+
                 </div>
             </div>
-            <div class="home-select">
+            <div class="home-select tv-show">
                 <div class="home-select-title">
                     <h3 class="home-select-title-txt">TV Show</h3>
                 </div>
                 <div class="home-select-menu">
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/giao-lo-thoi-gian-quang-ha-ha-nhi-633ae30147a1961a00148d7e"
-                            target="_blank">
-                            <img class="home-select-menu-item-img-horizon"
-                                src="https://static.fptplay.net/static/img/share/video/OTT/VOD/2022/10/03/giao-lo-thoi-gian-quang-ha---ha-nhi-fpt-play-1664790541412_Landscape.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/giao-lo-thoi-gian-quang-ha-ha-nhi-633ae30147a1961a00148d7e"
-                            target="_blank">
-                            <p class="home-select-menu-item-txt">Giao Lộ Thời Gian: Quang Hà - Hà Nhi</p>
-                        </a>
-                    </div>
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/fashup-2022-by-tiktok-633d0e0740c4eb4e3712cbed"
-                            target="_blank">
-                            <img class="home-select-menu-item-img-horizon"
-                                src="https://static.fptplay.net/static/img/share/video/OTT/VOD/2022/10/04/fashup-2022-by-tiktok-fpt-play-1664876799851_Landscape.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/fashup-2022-by-tiktok-633d0e0740c4eb4e3712cbed"
-                            target="_blank">
-                            <p class="home-select-menu-item-txt">Fash Up 2022 By TikTok</p>
-                        </a>
-                    </div>
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/the-khang-show-62ef725bddac64895fd017e5" target="_blank">
-                            <img class="home-select-menu-item-img-horizon"
-                                src="https://static.fptplay.net/static/img/share/video/OTT/VOD/2022/08/08/thekhangshow_2022_vn_b_50t_ott_n08-08-2022_10g18-02.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/the-khang-show-62ef725bddac64895fd017e5" target="_blank">
-                            <p class="home-select-menu-item-txt">The Khang Show</p>
-                        </a>
-                    </div>
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/hau-boi-du-ky-631845ea95cfffa45899e829" target="_blank">
-                            <img class="home-select-menu-item-img-horizon"
-                                src="https://static.fptplay.net/static/img/share/video/OTT/VOD/2022/09/09/hauboiduky_bghd09-09-2022_15g00-20.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/hau-boi-du-ky-631845ea95cfffa45899e829" target="_blank">
-                            <p class="home-select-menu-item-txt">Young Actor's Retreat</p>
-                        </a>
-                    </div>
+
                 </div>
             </div>
-            <div class="home-select">
+            <div class="home-select herobaby">
                 <div class="home-select-title">
                     <h3 class="home-select-title-txt">Người hùng tí hon</h3>
                 </div>
                 <div class="home-select-menu">
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/ops-tu-quai-sieu-quay-613087602089bd03a6b57bee"
-                            target="_blank">
-                            <img class="home-select-menu-item-img"
-                                src="https://static.fptplay.net/static/img/share/video/03_09_2021/opswhatahopsriblepack_2019_it_b_52t162023-fpt-play03-09-2021_14g36-58.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/ops-tu-quai-sieu-quay-613087602089bd03a6b57bee"
-                            target="_blank">
-                            <p class="home-select-menu-item-txt">OPS - Tứ Quái Siêu Quậy</p>
-                        </a>
-                    </div>
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/morphle-va-mia-sat-canh-ben-nhau-623c4b53e439af21a64f5b14"
-                            target="_blank">
-                            <img class="home-select-menu-item-img"
-                                src="https://static.fptplay.net/static/img/share/video/25_03_2022/morphleandmiabetogether_2011_gb_b_30t_ott125-03-2022_16g50-11.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/morphle-va-mia-sat-canh-ben-nhau-623c4b53e439af21a64f5b14"
-                            target="_blank">
-                            <p class="home-select-menu-item-txt">Morphle và Mia - Sát Cánh Bên Nhau</p>
-                        </a>
-                    </div>
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/nguoi-hung-gordon-627e1fecf981e1f25f03e0bb"
-                            target="_blank">
-                            <img class="home-select-menu-item-img"
-                                src="https://static.fptplay.net/static/img/share/video/OTT/VOD/2022/05/12/nguoi-hung-gordon-30-tap-fpt-play-1652343674549_Portrait_origin.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/nguoi-hung-gordon-627e1fecf981e1f25f03e0bb"
-                            target="_blank">
-                            <p class="home-select-menu-item-txt">Người Hùng Gordon</p>
-                        </a>
-                    </div>
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/nhat-ky-khung-long-627e10e1dcdad706872861a5"
-                            target="_blank">
-                            <img class="home-select-menu-item-img"
-                                src="https://static.fptplay.net/static/img/share/video/OTT/VOD/2022/04/28/nhat-ky-khung-long-fpt-play-1651106301975_Portrait_origin.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/nhat-ky-khung-long-627e10e1dcdad706872861a5"
-                            target="_blank">
-                            <p class="home-select-menu-item-txt">Nhật Ký Khủng Long</p>
-                        </a>
-                    </div>
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/bac-thay-ket-hop-suc-manh-toi-thuong-627cd499ad3c736a18f84341"
-                            target="_blank">
-                            <img class="home-select-menu-item-img"
-                                src="https://static.fptplay.net/static/img/share/video/OTT/VOD/2022/04/27/bac-thay-ket-hop-suc-manh-toi-thuong-39-tap-fpt-play-1651075220044_Portrait_origin.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/bac-thay-ket-hop-suc-manh-toi-thuong-627cd499ad3c736a18f84341"
-                            target="_blank">
-                            <p class="home-select-menu-item-txt">Bậc Thầy Kết Hợp: Sức Mạnh Tối Thượng</p>
-                        </a>
-                    </div>
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/oddbods-tinh-ban-ben-lau-6274e0409540ea5e4b2a3e32"
-                            target="_blank">
-                            <img class="home-select-menu-item-img"
-                                src="https://static.fptplay.net/static/img/share/video/OTT/VOD/2022/05/06/oddbods---tinh-ban-ben-lau-20-tap-fpt-play-1651807889036_Portrait_origin.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/oddbods-tinh-ban-ben-lau-6274e0409540ea5e4b2a3e32"
-                            target="_blank">
-                            <p class="home-select-menu-item-txt">Oddbods - Tình Bạn Bền Lâu</p>
-                        </a>
-                    </div>
+
                 </div>
             </div>
-            <div class="home-select">
+            <div class="home-select golf">
                 <div class="home-select-title">
                     <h3 class="home-select-title-txt">Golf</h3>
                 </div>
                 <div class="home-select-menu">
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/top-10-cu-danh-an-tuong-liv-golf-jeddah-2022-634e0d907fbdb3fe0f30dad9"
-                            target="_blank">
-                            <img class="home-select-menu-item-img-horizon"
-                                src="https://static.fptplay.net/static/img/share/video/OTT/VOD/2022/10/18/jeddahshots_1666059537782.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/top-10-cu-danh-an-tuong-liv-golf-jeddah-2022-634e0d907fbdb3fe0f30dad9"
-                            target="_blank">
-                            <p class="home-select-menu-item-txt">Top 10 cú đánh ấn tượng</p>
-                        </a>
-                    </div>
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/top-10-cu-danh-hong-an-liv-golf-jeddah-2022-634e0d5ec1e6b6a763993e3f"
-                            target="_blank">
-                            <img class="home-select-menu-item-img-horizon"
-                                src="https://static.fptplay.net/static/img/share/video/OTT/VOD/2022/10/18/jeddahmisses_1666059289033.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/top-10-cu-danh-hong-an-liv-golf-jeddah-2022-634e0d5ec1e6b6a763993e3f"
-                            target="_blank">
-                            <p class="home-select-menu-item-txt">Top 10 cú đánh hỏng ăn</p>
-                        </a>
-                    </div>
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/top-10-bunker-shot-an-tuong-liv-golf-jeddah-2022-634e0d7790bc132be4275fcf"
-                            target="_blank">
-                            <img class="home-select-menu-item-img-horizon"
-                                src="https://static.fptplay.net/static/img/share/video/OTT/VOD/2022/10/18/jeddahbunkers_1666059416879.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/top-10-bunker-shot-an-tuong-liv-golf-jeddah-2022-634e0d7790bc132be4275fcf"
-                            target="_blank">
-                            <p class="home-select-menu-item-txt">Top 10 Bunker Shot ấn tượng</p>
-                        </a>
-                    </div>
-                    <div class="home-select-menu-item">
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/top-10-cu-chip-an-tuong-liv-golf-jeddah-2022-634e0d84eb636e16fe48e155"
-                            target="_blank">
-                            <img class="home-select-menu-item-img-horizon"
-                                src="https://static.fptplay.net/static/img/share/video/OTT/VOD/2022/10/18/jeddahchips_1666059471444.jpg?w=282&mode=scale&fmt=webp" />
-                        </a>
-                        <a class="home-select-menu-item-link"
-                            href="https://fptplay.vn/xem-video/top-10-cu-chip-an-tuong-liv-golf-jeddah-2022-634e0d84eb636e16fe48e155"
-                            target="_blank">
-                            <p class="home-select-menu-item-txt">Top 10 cú chip ấn tượng</p>
-                        </a>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -581,6 +308,11 @@
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+    <script src="./javascript/home.js"></script>
 </body>
 
 </html>

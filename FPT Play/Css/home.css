@@ -4,7 +4,7 @@
     justify-content: center;
     background-color: rgb(17, 17, 17);
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 80px;
     
 }
 
@@ -122,6 +122,7 @@
     justify-content: space-around;
     column-gap: 10px;
 }
+
 
 .home-select-menu-item {}
 

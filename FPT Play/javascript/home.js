@@ -177,5 +177,10 @@ $(document).ready(function(){
   });
 
 
-
+  const accountstr = localStorage.getItem('account');
+  const pageSection = document.getElementById ('page')
+  if (accountstr){
+      let account = JSON.parse(accountstr)
+      pageSection.innerHTML = `<strong>${account.phone}</strong>`
+  }
   

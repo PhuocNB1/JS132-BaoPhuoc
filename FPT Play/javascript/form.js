@@ -1,20 +1,8 @@
-const listAccount = [
-    {
-        phone: '0326413335',
-        password: '123',
-    },
-    {
-        phone: '0326413555',
-        password: '123',
-    },
-]
-
-
-
-
 // trang login
 
+const listAccount = JSON.parse(localStorage.getItem("listAccount") || "[]");
 const loginForm = document.getElementById('form-login');
+
 function isValidAccount(phone, password) {
     for (let i = 0; i < listAccount.length; i++) {
         if (listAccount[i].phone === phone && listAccount[i].password === password) {

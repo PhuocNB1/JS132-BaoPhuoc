@@ -41,8 +41,14 @@ li {
   right: 100px; */
 }
 
-.active-menu-search-img:hover {
-  color: #ff6500;
+.active-menu-search-img:hover {}
+
+.lock:hover .icon-unlock,
+.lock .icon-lock {
+    display: none;
+}
+.lock:hover .icon-lock {
+    display: inline;
 }
 
 .logo-home {
@@ -65,7 +71,7 @@ li {
 .active-buy__btn {
   padding: 8px 16px;
   margin: 5px 20px;
-  background: linear-gradient(114.88deg, #fe592a 0%, #e93013 97.15%);
+  background: #d42409fa 97.15%;
   color: #fff;
   border-radius: 10px;
   border-style: none;
@@ -73,7 +79,8 @@ li {
 }
 
 .active-buy__btn:hover {
-  background-color: #ff5833 !important;
+  background-color: #f73b1e;
+  transition: 0.3s;
 }
 
 .active-login {

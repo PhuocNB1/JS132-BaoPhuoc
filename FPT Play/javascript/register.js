@@ -1,23 +1,6 @@
 // trang register 
 
-
-
-// const phone = document.getElementById('phone').value;
-// const password = document.getElementById('password').value;
-// const repassword = document.getElementById('repassword').value;
-// window.onload = function renderAccount() {
-//     if (password === repassword){
-//          const listAccount = localStorage.getItem('listAccount') ? JSON.parse('listAccount') : [];
-//          listAccount.push({
-//             phone: phone,
-//             password : password,
-//          });
-//          localStorage.setItem('listAccount',JSON.stringify(listAccount));
-//     }else (password !== repassword){
-//         alert('Nhập lại mật khẩu!!!')
-//     }
-// }
-const Account = [
+const listAccount = [
     {
         phone: '',
         password:'' ,
@@ -25,8 +8,7 @@ const Account = [
 ]
 const registerForm = document.getElementById('form-register');
 function isValidpassword(password, repassword) {
-    const password = document.getElementById('password').value;
-    const repassword = document.getElementById('re-password').value;
+    
     if (password === repassword) {
         return true
     }
@@ -35,9 +17,10 @@ function isValidpassword(password, repassword) {
 
 registerForm.addEventListener('submit', (event) => {
     event.preventDefault()
-
-    if (isValidpassword(event.target.phone.value, event.target.password.value)) {
-        localStorage.getItem('listAccount', JSON.parse({
+    const password = document.getElementById('password').value;
+    const repassword = document.getElementById('re-password').value;
+    if (isValidpassword(password,repassword)) {
+        localStorage.setItem('listAccount', JSON.stringify({
             phone: event.target.phone.value,
             password: event.target.password.value
         }))
